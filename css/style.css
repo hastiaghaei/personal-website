@@ -437,9 +437,9 @@ a.active {
   padding: 0.25em 1em 0.2em 1em;
 }
 .resume-btn {
-  border: 1px solid black;
+  border: none;
   background-color: #bf9d9c;
-  color: #737373;
+  color: #fefefe;
   padding: 10px;
   font-size: 1.3rem;
   min-width: 80px;
