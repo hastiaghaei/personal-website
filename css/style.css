@@ -779,6 +779,11 @@ fieldset {
     width: 90%;
     left: 2em;
   }
+  #portfolio .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+    display: inline-block;
+}
 }
 
 @media (max-width: 500px) {
