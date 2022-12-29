@@ -162,9 +162,9 @@ $(document).ready(function () {
     });
   });
 });
-const swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".swiper", {
   // Optional parameters
-  spaceBetween: 50,
+  spaceBetween: 100,
   direction: "horizontal",
   loop: true,
 
@@ -179,18 +179,5 @@ const swiper = new Swiper(".mySwiper", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
-});
-var swiper2 = new Swiper(".mySwiper2", {
-  direction: "vertical",
-  spaceBetween: 50,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
   },
 });
