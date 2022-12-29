@@ -53,20 +53,19 @@ body {
   height: 50px;
 }
 .swiper {
-  width: 95%;
-  height: 90vh;
-  border-width: 1px solid gray;
+  max-height: 100vh;
+  text-align: center;
 }
-.swiper-button-prev {
-  color: #444;
-  opacity: 0.5;
-}
-.swiper-button-next {
-  color: #444;
-  opacity: 0.5;
-}
+
 .swiper-pagination-bullet-active {
   background-color: #bf9d9c;
+}
+.swiper-container {
+  padding: 5% 10%;
+  max-height: 100vh;
+}
+.swiper-slide img {
+  max-width: 70%;
 }
 
 /* preloader
@@ -289,6 +288,9 @@ a.active {
   }
   h1 {
     font-size: 4.5rem;
+  }
+  .swiper-slide img {
+    max-width: 90%;
   }
 }
 
@@ -783,7 +785,7 @@ fieldset {
     float: none;
     margin: 20px;
     display: inline-block;
-}
+  }
 }
 
 @media (max-width: 500px) {
@@ -822,4 +824,64 @@ fieldset {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+}
+/* ================================ porto ========= */
+.porto_container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding: 5% 15%;
+  justify-content: space-between;
+  align-items: center;
+}
+.porto_left {
+  width: 100%;
+}
+.porto_title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.4rem;
+  line-height: 70px;
+  font-weight: 600 !important;
+  color: #737373;
+  text-decoration: underline #737373;
+}
+.porto_left h5 {
+  color: #bf9d9c;
+}
+.porto_left p {
+  color: #737373;
+  margin-bottom: 120px;
+}
+.porto_right {
+  width: 100%;
+  margin: 20px;
+  border: #bf9d9c 2px dotted;
+  border-radius: 5px;
+}
+.porto_left a button {
+  border: none;
+  background-color: #bf9d9c;
+  color: #fefefe;
+  padding: 5px;
+  font-size: 1rem;
+  min-width: 100px;
+  box-shadow: 0px 5px 10px #333;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.porto_left a button:active {
+  box-shadow: 0px 4px 8px #333;
+  -webkit-transform: scale(0.98);
+  transform: scale(0.98);
+}
+@media (max-width: 912px) {
+  .porto_container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+  }
+}
+.email-text {
+  color: #333;
 }
