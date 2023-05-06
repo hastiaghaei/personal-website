@@ -284,7 +284,7 @@ a.active {
 @media only screen and (max-width: 768px) {
   #home {
     background-position: right bottom;
-    background-position-x: -450px;
+    background-position-x: -565px;
   }
   h1 {
     font-size: 4.5rem;
