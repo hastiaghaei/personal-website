@@ -13,7 +13,7 @@ h4 {
   text-transform: capitalize;
   letter-spacing: 2px;
   position: relative;
-  color: #bf9d9c;
+  color: #779ECB;
   margin-left: 40px;
   font-weight: 700;
 }
@@ -25,12 +25,12 @@ h4:before {
   content: "";
   display: block;
   height: 2px;
-  background: #bf9d9c;
+  background: #779ECB;
   top: 9px;
 }
 .close-popup-modal i {
-  color: #bf9d9c;
-  border: 0.5px solid #bf9d9c;
+  color: #779ECB;
+  border: 0.5px solid #779ECB;
   border-radius: 100px;
   padding: 2px 8px;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #bf9d9c;
+  background-color: #779ECB;
 }
 .swiper-container {
   padding: 5% 10%;
@@ -113,7 +113,7 @@ body {
   width: 100%;
   -webkit-animation: rotation 1s linear infinite;
   animation: rotation 1s linear infinite;
-  border: 2px solid #bf9d9c;
+  border: 2px solid #779ECB;
   border-top: 2px solid transparent;
   border-radius: 100%;
 }
@@ -253,19 +253,19 @@ a:focus {
 }
 
 a:hover {
-  color: #bf9d9c;
+  color: #779ECB;
   text-decoration: none;
 }
 
 a.active {
-  color: #bf9d9c;
+  color: #779ECB;
 }
 
 /* home section
 ==================================================*/
 
 #home {
-  background: url(../img/home-bg-2.jpeg);
+  background: url(../img/home_bg_2.jpg);
   background-size: cover;
   height: 100vh;
   background-position: bottom;
@@ -307,7 +307,7 @@ a.active {
 
 .about-border {
   position: absolute;
-  border: 10px solid #bf9d9c;
+  border: 10px solid #779ECB;
   width: 400px;
   height: 400px;
   top: 40px;
@@ -332,7 +332,7 @@ a.active {
   font-family: "Lato", sans-serif;
   text-transform: capitalize;
   letter-spacing: 2px;
-  color: #bf9d9c;
+  color: #779ECB;
   font-size: 16px;
   font-weight: bold;
 }
@@ -372,11 +372,11 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  background-color: #bf9d9c;
+  background-color: #779ECB;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-  box-shadow: inset 40em 0 0 0 #bf9d9c;
+  box-shadow: inset 40em 0 0 0 #779ECB;
 }
 
 .timeline-event-copy {
@@ -411,7 +411,7 @@ a.active {
   transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #bf9d9c;
+  background-color: #779ECB;
   outline: 10px solid #f3f3f3;
   display: block;
   margin: 0.5em 0.5em 0.5em -0.5em;
@@ -433,14 +433,14 @@ a.active {
   font-size: 12px;
   font-weight: bold;
   background-color: black;
-  box-shadow: inset 0 0 0 0em #bf9d9c;
+  box-shadow: inset 0 0 0 0em #779ECB;
   display: inline-block;
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;
 }
 .resume-btn {
   border: none;
-  background-color: #bf9d9c;
+  background-color: #779ECB;
   color: #fefefe;
   padding: 10px;
   font-size: 1.3rem;
@@ -481,7 +481,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-  background-color: #bf9d9c;
+  background-color: #779ECB;
   padding: 0px 20px;
   color: white;
   text-decoration: none;
@@ -504,7 +504,7 @@ a.active {
   left: 0px;
   height: 100%;
   width: 100%;
-  background-color: #bf9d9c;
+  background-color: #779ECB;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   opacity: 0;
@@ -539,7 +539,7 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
   font-style: normal;
   display: inline-block;
-  background-color: #bf9d9c;
+  background-color: #779ECB;
   padding: 5px 20px;
   color: #fff;
   margin-top: 10px;
@@ -600,8 +600,8 @@ a.active {
 .modal-content {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
   position: relative;
-  border-right: 5px dashed #bf9d9c;
-  border-left: 5px dashed #bf9d9c;
+  border-right: 5px dashed #779ECB;
+  border-left: 5px dashed #779ECB;
   border-top: none;
   border-bottom: none;
   margin: 20px 10px;
@@ -714,11 +714,11 @@ fieldset {
 }
 
 #success p {
-  color: #bf9d9c;
+  color: #779ECB;
   font-size: 15px;
   text-align: center;
   padding: 10px;
-  border: 2px solid #bf9d9c;
+  border: 2px solid #779ECB;
   margin-top: 10px;
 }
 
@@ -732,7 +732,7 @@ fieldset {
 }
 
 #submit {
-  background-color: #bf9d9c;
+  background-color: #779ECB;
   color: #fff;
   padding: 10px 40px;
   border-radius: 0;
@@ -761,7 +761,7 @@ fieldset {
 }
 
 .social li a:hover {
-  color: #bf9d9c;
+  color: #779ECB;
 }
 .social-title {
   margin-top: 10%;
@@ -846,7 +846,7 @@ fieldset {
   text-decoration: underline #737373;
 }
 .porto_left h5 {
-  color: #bf9d9c;
+  color: #779ECB;
 }
 .porto_left p {
   color: #737373;
@@ -855,12 +855,12 @@ fieldset {
 .porto_right {
   width: 100%;
   margin: 20px;
-  border: #bf9d9c 2px dotted;
+  border: #779ECB 2px dotted;
   border-radius: 5px;
 }
 .porto_left a button {
   border: none;
-  background-color: #bf9d9c;
+  background-color: #779ECB;
   color: #fefefe;
   padding: 5px;
   font-size: 1rem;
