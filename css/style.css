@@ -444,7 +444,7 @@ a.active {
   color: #fefefe;
   padding: 10px;
   font-size: 1.3rem;
-  min-width: 80px;
+  width: 30%;
   font-weight: bold;
 }
 
